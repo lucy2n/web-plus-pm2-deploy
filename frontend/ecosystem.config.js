@@ -10,7 +10,7 @@ module.exports = {
       user: DEPLOY_USER,
       host: DEPLOY_HOST,
       ref: DEPLOY_REF,
-      repo: DEPLOY_REPOSITORY,
+      repo: DEPLOY_REPO,
       path: DEPLOY_PATH,
       'post-deploy': 'cd frontend && pwd && npm ci && npm run build',
     },
