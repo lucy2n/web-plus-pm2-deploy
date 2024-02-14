@@ -5,6 +5,10 @@ const {
 } = process.env;
 
 module.exports = {
+  apps: [{
+    name: "server",
+  }],
+  
   deploy: {
     production: {
       user: DEPLOY_USER,
